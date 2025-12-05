@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #abc1f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4d3ddf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .volver {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .volver:hover {
+    color: #ff0000;
+}
+
+
+header .sobre-mi {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .sobre-mi:hover {
+    color: #ff0000;
+}
+
+
+header .proyectos {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .proyectos:hover {
+    color: #ff0000;
+}
+
+
+header .contacto {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .contacto:hover {
+    color: #ff0000;
+}
+
+
+header .mascotas {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .mascotas:hover {
+    color: #ff0000;
+}
+
+/* Galería */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.mascota {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.mascota img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Hover en enlaces */
+a:hover {
+
+    opacity: 0.7;
+}
