@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #abc1f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ae00ff;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+header .container-nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+header a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 6px solid #000;
+    width: 170px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    transition: background-color 0.2s ease, 
+                color 0.2s ease, 
+                transform 0.2s ease;
+}
+
+header a:hover {
+    color: #ffffff;
+    background-color: #000;
+    transform: translateY(-10px);
+}
+
+
+header .volver {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffd000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 6px solid #000;
+    width: 170px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    transition: background-color 0.2s ease, 
+                color 0.2s ease, 
+                transform 0.2s ease;
+}
+
+header .volver:hover {
+    color: #ffffff;
+    background-color: #000;
+    transform: translateY(-10px);
+}
+
+/* ===== SOBRE MÍ ===== */
+.sobre-mi-2 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.sobre-mi-2 h2 {
+    color: #000000;
+}
+
+/* ===== PROYECTOS (TASK 3 - GRID) ===== */
+#proyectos ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#proyectos li {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* ===== GALERÍA MASCOTAS (TASK 4 - FLEXBOX) ===== */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.mascota {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.mascota img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+/* ===== SECCIONES GENERALES ===== */
+section {
+    padding: 40px 20px;
+}
+
+/* ===== SOBRE MÍ ===== */
+.sobre-mi-2 {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.sobre-mi-2 h2 {
+    margin-bottom: 10px;
+}
+
+/* ===== PROYECTOS ===== */
+#proyectos {
+    text-align: center;
+}
+
+#proyectos h2 {
+    margin-bottom: 20px;
+}
+
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ===== CONTACTO ===== */
+#contacto {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contacto input,
+#contacto button {
+    padding: 12px;
+    font-size: 16px;
+}
+
+#contacto button {
+    cursor: pointer;
+}
