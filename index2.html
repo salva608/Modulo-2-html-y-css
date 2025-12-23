@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +10,33 @@
 
 <header>
     <h1>Salvador Aponte</h1>
-
     <nav>
         <ul class="container-nav">
-            <li><a class="sobre-mi" href="#sobre-mi">Sobre mí</a></li>
-            <li><a class="proyectos" href="#proyectos">Proyectos</a></li>
-            <li><a class="contacto" href="#contacto">Contacto</a></li>
-            <li><a class="mascotas" href="mascotas.html">Mascotas</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="mascotas.html">Mascotas</a></li>
         </ul>
     </nav>
 </header>
 
-<section class="sobre-mi-2" id="sobre-mi">
+<section id="sobre-mi" class="sobre-mi">
     <h2>Sobre mí</h2>
-    <p>Soy Salvador Aponte y estoy aprendiendo desarrollo web.</p>
+
+    <p id="texto-cambiable">
+        Soy Salvador Aponte y estoy aprendiendo desarrollo web.
+    </p>
+
+    <button id="btn-cambiar">Cambiar texto</button>
+    <button id="btn-mostrar">Mostrar / Ocultar info</button>
+
+    <p id="contenido-extra" style="display:none;">
+        Este portafolio fue adaptado para ser responsivo y usar JavaScript básico.
+    </p>
 </section>
 
 <section id="proyectos">
     <h2>Proyectos</h2>
-
     <ul class="lista-proyectos">
         <li>Proyecto 1</li>
         <li>Proyecto 2</li>
@@ -45,5 +53,6 @@
     </form>
 </section>
 
+<script src="assets/js/script.js"></script>
 </body>
 </html>
